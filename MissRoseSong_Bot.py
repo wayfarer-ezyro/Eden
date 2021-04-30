@@ -29,7 +29,7 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'Hi @{message.from_user.username}\n\n [🎸🎸🎸](https://telegra.ph/file/29e6c9d9a8848dfdd5f4d.jpg)\n I\'m Σ∂єη, I can upload songs from YouTube.\n I can even work in Groups & Channels. Just type “/a song name”.'
+    darkprince = f'Hi {message.from_user.first_name}\n\n [🎸🎸🎸](https://telegra.ph/file/29e6c9d9a8848dfdd5f4d.jpg)\n I\'m Σ∂єη, I can upload songs from YouTube.\n I can even work in Groups & Channels. Just type “/a song name”.'
     message.reply_text(
         text=darkprince, 
         quote=False,
