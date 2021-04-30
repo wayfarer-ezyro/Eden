@@ -29,15 +29,15 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-    darkprince = f'👋 Hello @{message.from_user.username}\n\n [😌🍀🤚](https://telegra.ph/file/86cc2e654b1157f12b94f.jpg)\n I\'m Rose, I can upload songs from YouTube. Type /a song name:'
+    darkprince = f'Hi @{message.from_user.username}\n\n [🎸🎸🎸](https://telegra.ph/file/29e6c9d9a8848dfdd5f4d.jpg)\n I\'m Σ∂єη, I can upload songs from YouTube.\n I can even work in Groups & Channels. Just type “/a song name”.'
     message.reply_text(
         text=darkprince, 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Owner🎸', url='https://t.me/mr_dark_prince'),
-                    InlineKeyboardButton('Source💿', url='https://github.com/Mr-Dark-Prince/MissRose')
+                    InlineKeyboardButton('🦋 Creator 🦋', url='https://t.me/AidanNia'),
+                    InlineKeyboardButton('🔊 Channel 🔊', url='https://t.me/EywasUpdates')
                 ]
             ]
         )
