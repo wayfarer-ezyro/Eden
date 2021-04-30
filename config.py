@@ -1,5 +1,5 @@
 class Config:
-    BOT_TOKEN = "" # 🌚 get it from @botfather (telegram) by sending /newbot command.
-    API_ID =  # 🌚 Same as APP_ID. Get it from my.telegram.org.
-    API_HASH = "" # 🌚 Get it from my.telegram.org.
+    BOT_TOKEN = "1711221122:AAFI_rVq4NFKQli9Jma-s2mFzkt0eMfI0_I"
+    API_ID = "3609223"
+    API_HASH = "302bf5498005e091fd23c88d8e76740e"
     
